@@ -4,7 +4,7 @@
 }
 
 .image {
-  width: 33.3%;
+  width: 25%;
   cursor: pointer;
 }
 
@@ -24,6 +24,6 @@
 
 @media only screen and (min-width: 768px) {
   .image {
-    width: 25%;
+    width: 20%;
   }
 }
