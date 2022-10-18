@@ -7,7 +7,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title></title>
+        <title>Fan Vue - Menu</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <Box textAlign={"center"} my={8}>

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { NextPage } from "next";
+import Head from "next/head";
 // import Image from "next/image";
 import { ImageList, ImageListItem, Fab } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
@@ -14,6 +15,10 @@ const Vault: NextPage<Props> = ({ photos }) => {
   const [image, setImage] = useState('');
   return (
     <>
+      <Head>
+        <title>Fan Vue - Vault</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <h1>Vault</h1>
       <div className={styles.gallery}>
         {photos.map((item: PhotoInterface) => (
